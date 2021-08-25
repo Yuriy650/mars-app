@@ -1,0 +1,50 @@
+.content-container{
+  overflow-y: auto;
+  max-height: 1000px;
+  &__photos{
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+  &__card {
+    margin: 2rem 3rem 1rem 3rem;
+  }
+  &__media {
+    height: 300px;
+    width: 425px;
+  }
+
+  &__typography {
+    font-family: 'Roboto';
+    color: #3f51b5;
+    font-weight: bold;
+
+  }
+  &__typo-content {
+    p {
+      font-size: 1.1rem;
+      color: #888
+    }
+  }
+
+}
+.loader{
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  text-align: center;
+  margin-top: 2rem;
+}
+.error, .message{
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  text-align: center;
+  margin: 1rem;
+
+}
