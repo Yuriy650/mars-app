@@ -12,7 +12,7 @@ const Content = (props: any) => {
     } else if (!props.isLoaded) {
         return <div className="loader">Loading...</div>;
     } else if (props.photos.length === 0) {
-        return <div className="message">There are no one photos 😞! Try input another search options!</div>
+        return <p className="message">There are no one photos 😞! Try input another search options!</p>
     }
     return (
         <div className="content-container">
@@ -28,9 +28,9 @@ const Content = (props: any) => {
                             <CardContent className="content-container__card-content">
                                 <Typography gutterBottom variant="h5" component="h2"
                                             className="content-container__typography">
-                                    {item.rover.name}
+                                    <span>{item.rover.name}</span>
                                 </Typography>
-                                <Typography variant="body2" color="textSecondary" component="p"
+                                <Typography variant="body2" color="textSecondary" component="div"
                                             className="content-container__typo-content">
 
                                     <p><span>Earth date:</span> {item.earth_date}</p>

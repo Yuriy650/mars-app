@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './App.scss';
 import {Photos, Search} from "./interfaces";
-//import {Button} from "@material/react-button";
 import Select from '@material-ui/core/Select';
 import '@material/react-button/index.scss';
 import "@fontsource/roboto";
@@ -41,10 +40,9 @@ function App() {
         }))
     }
     const onSubmitHandler = (e: any) => {
-        e.preventDefault()
-        setSearch(search)
-        setNewSearch(search)
-        console.log(newSearch)
+        e.preventDefault();
+        setSearch(search);
+        setNewSearch(search);
     }
     useEffect(() => {
         fetchPhotos()
@@ -59,7 +57,6 @@ function App() {
                 );
                 setIsLoaded(true);
                 const data = await res.json();
-                console.log(data)
                 setPhotos(data.photos);
             } catch (err) {
                 setError(err.message)
@@ -80,7 +77,7 @@ setLoadMore(false);
                 <Header />
                 <div className="app-container__form">
                     <form onSubmit={onSubmitHandler}>
-                        <FormControl variant="outlined">
+                        <FormControl variant="outlined" focused>
                             <InputLabel htmlFor="outlined-age-native-simple">Rover</InputLabel>
                             <Select
                                 className="app-container__form-item"
@@ -99,7 +96,7 @@ setLoadMore(false);
                                 <option value="spirit">Spirit</option>
                             </Select>
                         </FormControl>
-                        <FormControl variant="outlined">
+                        <FormControl variant="outlined" className="app-container__control" focused>
                             <InputLabel htmlFor="outlined-age-native-simple">Camera</InputLabel>
                             <Select
                                 className="app-container__form-item"
@@ -107,9 +104,11 @@ setLoadMore(false);
                                 name="camera"
                                 onChange={onChange}
                                 label="Camera"
+                                displayEmpty
                                 inputProps={{
                                     name: 'camera',
                                     id: 'outlined-age-native-simple',
+                                    color: 'red'
                                 }}
                             >
                                 <option aria-label="None" value=""/>
@@ -126,6 +125,7 @@ setLoadMore(false);
                         </FormControl>
                         <div className="app-container__form-item-textField">
                             <TextField id="outlined-basic"
+                                       focused
                                        className="app-container__form-item"
                                        label="Sol"
                                        variant="outlined"

@@ -13,21 +13,34 @@
     margin: 2rem 3rem 1rem 3rem;
   }
   &__media {
-    height: 300px;
-    width: 425px;
+    height: 290px;
+    width: 420px;
   }
 
   &__typography {
     font-family: 'Roboto';
     color: #3f51b5;
-    font-weight: bold;
+    span{
+      font-weight: 500;
+      font-size: 1.2;
+      letter-spacing: 0.1rem;
+    }
+
 
   }
   &__typo-content {
+    line-height: 0.9rem;
     p {
-      font-size: 1.1rem;
-      color: #888
+      font-size: 0.9rem;
+      color: #000;
+      font-weight: 500;
+      span{
+        color: #3f51b5;
+        font-weight: 500;
+        font-size: 0.9rem;
+      }
     }
+
   }
 
 }
