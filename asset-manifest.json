@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/mars-app/static/css/main.4ed3df0e.chunk.css",
-    "main.js": "/mars-app/static/js/main.0cbb8dd4.chunk.js",
-    "main.js.map": "/mars-app/static/js/main.0cbb8dd4.chunk.js.map",
-    "runtime-main.js": "/mars-app/static/js/runtime-main.5d606599.js",
-    "runtime-main.js.map": "/mars-app/static/js/runtime-main.5d606599.js.map",
+    "main.css": "/mars-app/static/css/main.bd487642.chunk.css",
+    "main.js": "/mars-app/static/js/main.5b314d9d.chunk.js",
+    "main.js.map": "/mars-app/static/js/main.5b314d9d.chunk.js.map",
+    "runtime-main.js": "/mars-app/static/js/runtime-main.3380a4e3.js",
+    "runtime-main.js.map": "/mars-app/static/js/runtime-main.3380a4e3.js.map",
     "static/css/2.31fe7c19.chunk.css": "/mars-app/static/css/2.31fe7c19.chunk.css",
-    "static/js/2.9c520687.chunk.js": "/mars-app/static/js/2.9c520687.chunk.js",
-    "static/js/2.9c520687.chunk.js.map": "/mars-app/static/js/2.9c520687.chunk.js.map",
-    "static/js/3.8d5b955e.chunk.js": "/mars-app/static/js/3.8d5b955e.chunk.js",
-    "static/js/3.8d5b955e.chunk.js.map": "/mars-app/static/js/3.8d5b955e.chunk.js.map",
+    "static/js/2.b1cd9b04.chunk.js": "/mars-app/static/js/2.b1cd9b04.chunk.js",
+    "static/js/2.b1cd9b04.chunk.js.map": "/mars-app/static/js/2.b1cd9b04.chunk.js.map",
+    "static/js/3.9de79e21.chunk.js": "/mars-app/static/js/3.9de79e21.chunk.js",
+    "static/js/3.9de79e21.chunk.js.map": "/mars-app/static/js/3.9de79e21.chunk.js.map",
     "index.html": "/mars-app/index.html",
     "static/css/2.31fe7c19.chunk.css.map": "/mars-app/static/css/2.31fe7c19.chunk.css.map",
-    "static/css/main.4ed3df0e.chunk.css.map": "/mars-app/static/css/main.4ed3df0e.chunk.css.map",
-    "static/js/2.9c520687.chunk.js.LICENSE.txt": "/mars-app/static/js/2.9c520687.chunk.js.LICENSE.txt",
+    "static/css/main.bd487642.chunk.css.map": "/mars-app/static/css/main.bd487642.chunk.css.map",
+    "static/js/2.b1cd9b04.chunk.js.LICENSE.txt": "/mars-app/static/js/2.b1cd9b04.chunk.js.LICENSE.txt",
     "static/media/nasa2.b747a805.png": "/mars-app/static/media/nasa2.b747a805.png",
     "static/media/index.css": "/mars-app/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.5d606599.js",
+    "static/js/runtime-main.3380a4e3.js",
     "static/css/2.31fe7c19.chunk.css",
-    "static/js/2.9c520687.chunk.js",
-    "static/css/main.4ed3df0e.chunk.css",
-    "static/js/main.0cbb8dd4.chunk.js"
+    "static/js/2.b1cd9b04.chunk.js",
+    "static/css/main.bd487642.chunk.css",
+    "static/js/main.5b314d9d.chunk.js"
   ]
 }
