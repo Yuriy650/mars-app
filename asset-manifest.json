@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mars-app/static/css/main.17b5f1cb.chunk.css",
-    "main.js": "/mars-app/static/js/main.55d5c0e9.chunk.js",
-    "main.js.map": "/mars-app/static/js/main.55d5c0e9.chunk.js.map",
+    "main.css": "/mars-app/static/css/main.4ed3df0e.chunk.css",
+    "main.js": "/mars-app/static/js/main.0cbb8dd4.chunk.js",
+    "main.js.map": "/mars-app/static/js/main.0cbb8dd4.chunk.js.map",
     "runtime-main.js": "/mars-app/static/js/runtime-main.5d606599.js",
     "runtime-main.js.map": "/mars-app/static/js/runtime-main.5d606599.js.map",
     "static/css/2.31fe7c19.chunk.css": "/mars-app/static/css/2.31fe7c19.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.8d5b955e.chunk.js.map": "/mars-app/static/js/3.8d5b955e.chunk.js.map",
     "index.html": "/mars-app/index.html",
     "static/css/2.31fe7c19.chunk.css.map": "/mars-app/static/css/2.31fe7c19.chunk.css.map",
-    "static/css/main.17b5f1cb.chunk.css.map": "/mars-app/static/css/main.17b5f1cb.chunk.css.map",
+    "static/css/main.4ed3df0e.chunk.css.map": "/mars-app/static/css/main.4ed3df0e.chunk.css.map",
     "static/js/2.9c520687.chunk.js.LICENSE.txt": "/mars-app/static/js/2.9c520687.chunk.js.LICENSE.txt",
     "static/media/nasa2.b747a805.png": "/mars-app/static/media/nasa2.b747a805.png",
     "static/media/index.css": "/mars-app/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.5d606599.js",
     "static/css/2.31fe7c19.chunk.css",
     "static/js/2.9c520687.chunk.js",
-    "static/css/main.17b5f1cb.chunk.css",
-    "static/js/main.55d5c0e9.chunk.js"
+    "static/css/main.4ed3df0e.chunk.css",
+    "static/js/main.0cbb8dd4.chunk.js"
   ]
 }
