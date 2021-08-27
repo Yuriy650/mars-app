@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mars-app/static/css/main.bd487642.chunk.css",
+    "main.css": "/mars-app/static/css/main.5aa2c61e.chunk.css",
     "main.js": "/mars-app/static/js/main.5b314d9d.chunk.js",
     "main.js.map": "/mars-app/static/js/main.5b314d9d.chunk.js.map",
     "runtime-main.js": "/mars-app/static/js/runtime-main.3380a4e3.js",
@@ -12,7 +12,7 @@
     "static/js/3.9de79e21.chunk.js.map": "/mars-app/static/js/3.9de79e21.chunk.js.map",
     "index.html": "/mars-app/index.html",
     "static/css/2.31fe7c19.chunk.css.map": "/mars-app/static/css/2.31fe7c19.chunk.css.map",
-    "static/css/main.bd487642.chunk.css.map": "/mars-app/static/css/main.bd487642.chunk.css.map",
+    "static/css/main.5aa2c61e.chunk.css.map": "/mars-app/static/css/main.5aa2c61e.chunk.css.map",
     "static/js/2.b1cd9b04.chunk.js.LICENSE.txt": "/mars-app/static/js/2.b1cd9b04.chunk.js.LICENSE.txt",
     "static/media/nasa2.b747a805.png": "/mars-app/static/media/nasa2.b747a805.png",
     "static/media/index.css": "/mars-app/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.3380a4e3.js",
     "static/css/2.31fe7c19.chunk.css",
     "static/js/2.b1cd9b04.chunk.js",
-    "static/css/main.bd487642.chunk.css",
+    "static/css/main.5aa2c61e.chunk.css",
     "static/js/main.5b314d9d.chunk.js"
   ]
 }
